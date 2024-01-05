@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2023": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "plugin:jest-extended/all",
+    "plugin:jest-formatting/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {},
+  "plugins": ["jest", "jest-extended", "jest-formatting"]
+}
