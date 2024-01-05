@@ -1,4 +1,4 @@
-function statement(invoice, plays) {
+export function statement(invoice, plays) {
   let totalAmount = 0;
   let volumeCredits = 0;
   let result = `Statement for ${invoice.customer}\n`;
@@ -45,8 +45,3 @@ function statement(invoice, plays) {
   result += `You earned ${volumeCredits} credits\n`;
   return result;
 }
-
-const invoices = require("./invoices.json");
-const plays = require("./plays.json");
-
-console.log(statement(invoices[0], plays));
