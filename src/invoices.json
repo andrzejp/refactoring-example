@@ -7,8 +7,24 @@
         "audience": 55
       },
       {
+        "playID": "hamlet",
+        "audience": 29
+      },
+      {
+        "playID": "hamlet",
+        "audience": 30
+      },
+      {
         "playID": "as-like",
         "audience": 35
+      },
+      {
+        "playID": "as-like",
+        "audience": 19
+      },
+      {
+        "playID": "as-like",
+        "audience": 20
       },
       {
         "playID": "othello",
