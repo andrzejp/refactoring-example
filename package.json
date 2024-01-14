@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:mutation": "stryker run",
     "format": "prettier --write ."
   },
   "keywords": [],
