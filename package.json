@@ -15,7 +15,7 @@
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "@stryker-mutator/core": "^8.2.6",
-    "@stryker-mutator/jest-runner": "^8.2.5",
+    "@stryker-mutator/jest-runner": "^8.2.6",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^27.9.0",
